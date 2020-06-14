@@ -41,6 +41,7 @@
 
 //fbli add
 //Liteos
+//add
 VOID HardWare_Init(VOID)
 {
     SystemClock_Config();
