@@ -40,6 +40,7 @@
 #include "los_sys.h"
 
 //fbli add
+//Liteos
 VOID HardWare_Init(VOID)
 {
     SystemClock_Config();
