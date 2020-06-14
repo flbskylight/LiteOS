@@ -39,7 +39,7 @@
 #include "los_typedef.h"
 #include "los_sys.h"
 
-
+//fbli add
 VOID HardWare_Init(VOID)
 {
     SystemClock_Config();
