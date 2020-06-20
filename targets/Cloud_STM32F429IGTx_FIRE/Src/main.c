@@ -51,6 +51,7 @@ VOID HardWare_Init(VOID)
     Debug_USART1_UART_Init();
     hal_rng_config();
     dwt_delay_init(SystemCoreClock);
+	 dwt_delay_init(SystemCoreClock);//fbli tmp add to test
 }
 
 int main(void)
