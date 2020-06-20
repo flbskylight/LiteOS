@@ -67,6 +67,6 @@ int main(void)
 
     dwt_delay_init(SystemCoreClock); //fbli tmp mask
     OsStart();
-    dwt_delay_init(SystemCoreClock);//fbli tmp add to test
+   // dwt_delay_init(SystemCoreClock);//fbli tmp add to test
     return 0;
 }
