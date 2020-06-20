@@ -64,7 +64,6 @@ int main(void)
     {
         return LOS_NOK;
     }
-
     dwt_delay_init(SystemCoreClock); //fbli tmp mask
     OsStart();
    // dwt_delay_init(SystemCoreClock);//fbli tmp add to test
