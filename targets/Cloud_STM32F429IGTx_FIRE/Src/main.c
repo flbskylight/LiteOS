@@ -51,14 +51,14 @@ VOID HardWare_Init(VOID)
     Debug_USART1_UART_Init();
     hal_rng_config();
     dwt_delay_init(SystemCoreClock);
-	 dwt_delay_init(SystemCoreClock);//fbli tmp add to test
+	// dwt_delay_init(SystemCoreClock);//fbli tmp add to test
 }
 
 int main(void)
 {
     UINT32 uwRet = LOS_OK;
     HardWare_Init();
-
+   // HardWare_Init(); //
     uwRet = OsMain();
     if (uwRet != LOS_OK)
     {
