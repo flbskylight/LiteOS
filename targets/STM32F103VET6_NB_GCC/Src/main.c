@@ -92,6 +92,7 @@ UINT32 creat_task1()
     task_init_param.uwStackSize = 0x200;
 
     uwRet = LOS_TaskCreate(&g_TskHandle, &task_init_param);
+    //uwRet = LOS_TaskCreate(&g_TskHandle, &task_init_param);
     if(LOS_OK != uwRet)
     {
         return uwRet;
