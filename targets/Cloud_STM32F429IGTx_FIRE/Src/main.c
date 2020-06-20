@@ -65,6 +65,7 @@ int main(void)
         return LOS_NOK;
     }
 
+    dwt_delay_init(SystemCoreClock); //fbli tmp mask
     OsStart();
 
     return 0;
